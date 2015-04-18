@@ -19,8 +19,8 @@ var client = new Twitter({
 
 var coTwitter = wrapper(client);
 
-co(function\* () {
-  response = yield client.get('statuses/user\_timeline', {screen\_name: 'bjonica'};
+co(function* () {
+  response = yield coTwitter.get('statuses/user_timeline', {screen_name: 'bjonica'});
   var json = response[0];
   var raw = response[1];
   console.log("Got JSON Response: " + json);
