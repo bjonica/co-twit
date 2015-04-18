@@ -1,19 +1,16 @@
 {
-  "name": "co-twitter",
-  "version": "0.1.0",
+  "name": "co-twit",
+  "version": "0.1.1",
   "description": "A simple wrapper for the twitter package for use with co and koa",
   "main": "index.js",
   "dependencies": {
+    "events": "^1.0.2",
     "thenify": "^3.1.0"
-  },
-  "devDependencies": {
-    "co": "^4.5.1",
-    "mocha": "^2.2.4",
-    "twitter": "^1.2.5"
   },
   "scripts": {
     "test": "mocha"
   },
   "author": "Boris Jonica",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "https://github.com/bjonica/co-twit"
 }
